@@ -10,7 +10,7 @@ export default {
     index: Number
   },
   methods: {
-    ...mapActions(['delTodo'])
+    ...mapActions('todo', ['delTodo'])
   }
 }
 </script>

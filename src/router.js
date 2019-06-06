@@ -10,6 +10,10 @@ export default new Router({
       component: () => import('./views/todos.vue')
     },
     {
+      path: '/card',
+      component: () => import('./views/card.vue')
+    },
+    {
       path: '*',
       redirect: 'todos'
     }
